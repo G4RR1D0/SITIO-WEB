@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #1e3c72, #234c94);
+    background: linear-gradient(135deg, #84a4df, #84a4df);
 }
 
 h1 {
@@ -14,14 +14,70 @@ p {
 }
 
 #encabezado {
-    background-color: #000000;
-    min-height: 200px;
-    height: auto;
-    width: 50%;
+    background-color: #3951be;
+    height: 60px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(252, 54, 54, 0.4);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:20px;
+}
+#logo{
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo img{
+    width: 100px;
+}
+#menu{
+     width: 50%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(134, 112, 255, 0.863);
+}
+#menu ul li{
+    float: left;
+}
+#menu ul li a{
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+#menu ul li a:hover{
+    color:#fff;
+    background-color: #4cb7ff;
+}
+
+#redes{
+     width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#redes img{
+    width: 50px;
 }
 
 #encabezado .encabezado1 {

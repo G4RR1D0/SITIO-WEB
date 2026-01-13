@@ -1,39 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
-    
     <title>Bienvenido al Sitio</title>
 </head>
 
 <body>
+
+    
     <div id="encabezado">
-        <div id="logo"><img src="IMAGES/Logo.png" alt="fISIO"></div>
-        <div id="menu">
-        
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Leciones</a></li>
-            <li><a href="#">Autocuidado</a></li>
-            <li><a href="#">Deporte</a></li>
-            <li><a href="#">Mujer</a></li>
-            <li><a href="#">Bebé</a></li>
-            <li><a href="#">Clinicas</a></li>
-
-        </ul>
+        <div id="logo">
+            <img src="IMAGES/Logo.png" alt="Fisio">
         </div>
-        <div id="redes"><img src="IMAGES/face.png" ><img src="IMAGES/gmail.png"> <img src="IMAGES/google.png"> <img src="IMAGES/youtube.png"> <im src="IMAGES/descarga.png"></im></div>
-    </div>
-        <h1 class="encabezado1">Clinica de Fisioterapia y Rehabilitación</h1>
-        <h1 class="encabezado2">Servivios Terapeuticos</h1>
-        <h1 class="encabezado3">Rehabilitación Funcional</h1>
-    <p>Hola, bienvenido al sitio de fisioterapia. En esta sección encontraras informaion de nuestros servicios, horarios
-        y mucho mas.</p>
-    <button onclick="mostrarAlerta()">Alerta</button>
-    <script src="JS/function.js"></script>
-</body>
 
+        <div id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Lesiones</a></li>
+                <li><a href="#">Autocuidado</a></li>
+                <li><a href="#">Deporte</a></li>
+                <li><a href="#">Mujer</a></li>
+                <li><a href="#">Bebé</a></li>
+                <li><a href="#">Clínicas</a></li>
+            </ul>
+        </div>
+
+        <div id="redes">
+            <img src="IMAGES/face.png" alt="Facebook">
+            <img src="IMAGES/gmail.png" alt="Gmail">
+            <img src="IMAGES/google.png" alt="Google">
+            <img src="IMAGES/youtube.png" alt="YouTube">
+            <img src="IMAGES/descarga.png" alt="Red social">
+        </div>
+    </div>
+
+    <h1 class="encabezado1">Clínica de Fisioterapia y Rehabilitación</h1>
+    <h1 class="encabezado2">Servicios Terapéuticos</h1>
+    <h1 class="encabezado3">Rehabilitación Funcional</h1>
+
+    <p>
+        Hola, bienvenido al sitio de fisioterapia. En esta sección encontrarás
+        información de nuestros servicios, horarios y mucho más.
+    </p>
+
+    <button onclick="mostrarAlerta()">Alerta</button>
+
+   
+    <section class="cards">
+        <div class="card">
+            <img src="IMAGES/fisio.jpg" alt="Fisioterapia">
+            <h4>Fisioterapia</h4>
+            <p>Tratamientos especializados para mejorar tu movilidad y bienestar.</p>
+        </div>
+
+        <div class="card">
+            <img src="IMAGES/logopedia.jpg" alt="Rehabilitación">
+            <h4>Logopedia</h4>
+            <p>disciplina de la salud que se dedica a prevenir, 
+                evaluar.</p>
+        </div>
+
+        <div class="card">
+            <img src="IMAGES/psicoterapia.jpg" alt="Deporte">
+            <h4>Psicoterapia</h4>
+            <p>aprenderás acerca de tus problemas específicos y cómo tus pensamientos,
+                 emociones.</p>
+        </div>
+
+        <div class="card">
+            <img src="IMAGES/terapia_ocupacional.jpg" alt="Deporte">
+            <h4>Terapia ocupacional</h4>
+            <p>terapéutico de las actividades de cuidado, 
+                trabajo y juego para incrementar la independencia.</p>
+        </div>
+    
+    </section>
+
+    <div id="bloque-grande">
+ 
+    <h2>Fisioterapia</h2>
+   <h4>La fisioterapia es una disciplina de la salud que ayuda a recuperar, mantener y mejorar el movimiento y
+     la función corporal tras lesiones, enfermedades
+     o discapacidades, usando agentes físicos como el movimiento, calor, frío o electricidad</h4>
+     <h2>¿Qué hace un fisioterapeuta?</h2>
+     <h4>Los fisioterapeutas son profesionales de la salud altamente capacitados 
+        cuyo objetivo principal es ayudar a los pacientes a recuperar
+         la movilidad, aliviar el dolor y mejorar su calidad de vida. </h4>
+     
+    </div>
+    <script src="JS/function.js"></script>
+    <footer id="pie-pagina">
+    <p>&copy; 2024 Clínica de Fisioterapia</p>
+    <p>Todos los derechos reservados</p>
+</footer>
+
+</body>
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,7 @@
 
 <body>
 
-    
+
     <div id="encabezado">
         <div id="logo">
             <img src="IMAGES/Logo.png" alt="Fisio">
@@ -17,14 +18,17 @@
 
         <div id="menu">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Lesiones</a></li>
-                <li><a href="#">Autocuidado</a></li>
+                <li><a href="#" onclick="mostrarAlerta();">Inicio</a></li>
+                <li><a href="#" onclick="suma();">Lesiones</a></li>
+                <li><a href="#" onclick="sumaParam(12,8);">Autocuidado</a></li>
                 <li><a href="#">Deporte</a></li>
                 <li><a href="#">Mujer</a></li>
                 <li><a href="#">Bebé</a></li>
                 <li><a href="#">Clínicas</a></li>
             </ul>
+
+
+
         </div>
 
         <div id="redes">
@@ -47,7 +51,7 @@
 
     <button onclick="mostrarAlerta()">Alerta</button>
 
-   
+
     <section class="cards">
         <div class="card">
             <img src="IMAGES/fisio.jpg" alt="Fisioterapia">
@@ -58,7 +62,7 @@
         <div class="card">
             <img src="IMAGES/logopedia.jpg" alt="Rehabilitación">
             <h4>Logopedia</h4>
-            <p>disciplina de la salud que se dedica a prevenir, 
+            <p>disciplina de la salud que se dedica a prevenir,
                 evaluar.</p>
         </div>
 
@@ -66,35 +70,42 @@
             <img src="IMAGES/psicoterapia.jpg" alt="Deporte">
             <h4>Psicoterapia</h4>
             <p>aprenderás acerca de tus problemas específicos y cómo tus pensamientos,
-                 emociones.</p>
+                emociones.</p>
         </div>
 
         <div class="card">
             <img src="IMAGES/terapia_ocupacional.jpg" alt="Deporte">
             <h4>Terapia ocupacional</h4>
-            <p>terapéutico de las actividades de cuidado, 
+            <p>terapéutico de las actividades de cuidado,
                 trabajo y juego para incrementar la independencia.</p>
         </div>
-    
+
     </section>
 
     <div id="bloque-grande">
- 
-    <h2>Fisioterapia</h2>
-   <h4>La fisioterapia es una disciplina de la salud que ayuda a recuperar, mantener y mejorar el movimiento y
-     la función corporal tras lesiones, enfermedades
-     o discapacidades, usando agentes físicos como el movimiento, calor, frío o electricidad</h4>
-     <h2>¿Qué hace un fisioterapeuta?</h2>
-     <h4>Los fisioterapeutas son profesionales de la salud altamente capacitados 
-        cuyo objetivo principal es ayudar a los pacientes a recuperar
-         la movilidad, aliviar el dolor y mejorar su calidad de vida. </h4>
-     
+
+        <h2>Fisioterapia</h2>
+        <h4>La fisioterapia es una disciplina de la salud que ayuda a recuperar, mantener y mejorar el movimiento y
+            la función corporal tras lesiones, enfermedades
+            o discapacidades, usando agentes físicos como el movimiento, calor, frío o electricidad</h4>
+        <h2>¿Qué hace un fisioterapeuta?</h2>
+        <h4>Los fisioterapeutas son profesionales de la salud altamente capacitados
+            cuyo objetivo principal es ayudar a los pacientes a recuperar
+            la movilidad, aliviar el dolor y mejorar su calidad de vida. </h4>
+
+valor1: <input type="number" nzame="val1" id="val1">
+valor2: <input type="number" nzame="val2" id="val2">
+<button onclick="sumarInput();">Calcular</button>
+Mensaje:<input type="text" name="mensaje" id="mensaje">
     </div>
-    <script src="JS/function.js"></script>
+
+
+    <script src="JS/funciones.js"></script>
     <footer id="pie-pagina">
-    <p>&copy; 2024 Clínica de Fisioterapia</p>
-    <p>Todos los derechos reservados</p>
-</footer>
+        <p>&copy; 2024 Clínica de Fisioterapia</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
 
 </body>
+
 </html>
